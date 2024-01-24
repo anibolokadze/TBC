@@ -1,0 +1,61 @@
+/* Frequently asked questions accordion */
+.accordion-wrapper {
+  background-color: var(--primary-bg);
+  padding: 30px 20px;
+  color: var(--font-color);
+}
+
+.accordion-wrapper svg {
+  fill: var(--font-color) !important;
+}
+
+.accordion-wrapper h3 {
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.all-questions-btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 50px 0px;
+  font-size: 16px;
+}
+
+#accordion li {
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--secondary-bg);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#accordion li label {
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#accordion label + input[type="checkbox"] {
+  display: none;
+}
+
+#accordion .content {
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  font-size: 14px;
+}
+
+#accordion label + input[type="checkbox"]:checked + .content {
+  max-height: 100%;
+  transition: max-height 0.3s ease;
+}
+
+#accordion .content .details {
+  margin-left: 21px;
+}
