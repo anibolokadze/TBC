@@ -5,26 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/colors.css" />
+    <link rel="stylesheet" href="./styles/navigation.css" />
     <link rel="stylesheet" href="./styles/FAQ.css" />
     <link rel="stylesheet" href="./styles/slideshow.css" />
     <link rel="stylesheet" href="./styles/courses.css" />
     <link rel="stylesheet" href="./styles/banner.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="https://static.wixstatic.com/media/93e8a3_03d83d668a5f417ca646a5e511f8c02a%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/93e8a3_03d83d668a5f417ca646a5e511f8c02a%7Emv2.png"
+      type="image/png"
+    />
     <title>TBC x USAID</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <!-- navigation links -->
+        <ul class="flex">
           <li>
             <a href="#"><img src="./assets/svg/logo.svg" alt="TBC logo" /></a>
           </li>
-          <li><a href="#">მთავარი</a></li>
-          <li><a href="#">TBC IT</a></li>
-          <li><a href="#">TBC x USAID</a></li>
-          <li><a href="#">რისკები</a></li>
+          <li class="nav-links">
+            <ul class="items">
+              <li><a href="#">მთავარი</a></li>
+              <li><a href="#">TBC IT</a></li>
+              <li><a href="#">TBC x USAID</a></li>
+              <li><a href="#">რისკები</a></li>
+            </ul>
+          </li>
+          <!-- burger menu -->
+          <li id="MENU_AS_CONTAINER_TOGGLE" role="button">
+            <div class="burger-wrapper">
+              <div class="burger-lines-wrapper">
+                <div class="burger-line short top-line"></div>
+                <div class="burger-line middle-line"></div>
+                <div class="burger-line short bottom-line"></div>
+              </div>
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
@@ -372,8 +392,10 @@
       <p>წესები და პირობები</p>
       <p>© 2023 ყველა უფლება დაცულია</p>
     </footer>
+    <div class="overlay"></div>
   </body>
 
+  <script src="./js/burgerMenu.js"></script>
   <script src="./js/FAQ.js"></script>
   <script src="./js/slideshow.js"></script>
 </html>
