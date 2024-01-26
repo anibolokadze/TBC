@@ -1,7 +1,7 @@
 /* footer */
 footer {
-  background-color: #1a1e1f;
-  padding: 0px 20px 0px 43px;
+  background-color: var(--footer-nav-bg);
+  padding: 10px 20px;
 }
 
 footer .footer-logo {
@@ -28,7 +28,7 @@ footer button:hover {
 footer .socials {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  justify-content: space-between;
   margin-bottom: 35px;
 }
 

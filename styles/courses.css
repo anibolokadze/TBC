@@ -38,7 +38,7 @@ button {
   display: flex;
   align-items: center;
   column-gap: 10px;
-  margin-bottom: 20px;
+  margin: 50px 0px 20px 0px;
 }
 
 .course-details button img {
@@ -48,7 +48,7 @@ button {
 .course-details article .content {
   padding: 20px 0px 0px 20px;
   display: grid;
-  row-gap: 10px;
+  row-gap: 35px;
 }
 
 /* info about course */

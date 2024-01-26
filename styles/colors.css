@@ -1,8 +1,9 @@
-/* color variables */
+/* frequently used color variables */
 :root {
   --font-color: #f4f4f4;
   --primary-bg: #161616;
   --secondary-bg: #2b2b2b;
+  --footer-nav-bg: #1a1e1f;
   --button: #00aef3;
   --navbar-links-hover: #00a3e0;
   --button-hover: #0080b0;

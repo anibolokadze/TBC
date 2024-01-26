@@ -1,6 +1,9 @@
 nav {
-  background-color: #1a1e1f;
+  background-color: var(--footer-nav-bg);
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 5000 !important;
 }
 
 /* flex Container */
