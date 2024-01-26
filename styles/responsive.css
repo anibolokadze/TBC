@@ -191,26 +191,4 @@
   .slideshow-container .custom {
     height: 150px;
   }
-
-  /* FAQ */
-  .all-questions-btn button {
-    font-size: 20px !important;
-  }
-
-  .all-questions-btn {
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  .accordion-wrapper h3 {
-    margin-right: 20px;
-  }
-
-  .all-questions-btn button {
-    position: absolute;
-    right: 0;
-    bottom: 300px;
-  }
 }

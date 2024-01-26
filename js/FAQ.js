@@ -2,7 +2,7 @@ let slideTimeout;
 
 // event listener for accordion checkboxes
 document.querySelectorAll('input[name="accordion"]').forEach((checkbox) => {
-  checkbox.addEventListener("change", function () {
+  checkbox.addEventListener("change", () => {
     // get arrow icon
     const arrowIcon = this.parentElement.querySelector("#arrowIcon");
 
